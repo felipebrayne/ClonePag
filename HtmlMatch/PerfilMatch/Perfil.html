@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoGato.png" alt="">
+        </div>
+        <div class="pesquisa">
+            <img src="img/pesquisa.svg" alt="">
+            <input type="text" placeholder="Pesquisar" class="pesquisar"> 
+        </div>
+        <div class="itens">
+            <img src="img/carrinho.svg" alt="">
+            <img src="img/notificação.svg" alt="">
+            <img src="img/fotoPerfil.svg" alt="">
+            <img src="img/menu.svg" alt="" class="menu">
+        </div>
+    </header>
+    <main>
+        <section class="perfil">
+            <img src="img/fotoPerfil2.svg" alt="">
+            <h1>Paulo Luiz</h1>
+            <h4>@Paulo_Luiz</h4>
+        </section>
+        <section class="seguidores">
+            <h3>3 Matches</h3>
+            <h3>12 Seguidores</h3>
+            <h3>127 Curtidas</h3>
+        </section>
+        <section class="confg">
+            <div class="editar">
+                <h2>Editar perfil</h2>
+            </div>
+            <div class="compartilhar">
+                <h2>Compartilhar link</h2>
+            </div>
+        </section>
+        <nav class="tabs">
+            <button  class="tab-on" id="btn-pets" onclick="abrirTabPets('Pets')">Pets </button>
+            <button  id="btn-posts"  onclick="abrirTabPosts('Posts')">Posts</button >
+        </nav>
+        <section id="Pets">
+            <section class="imgs">
+                <img src="img/1.png" alt="" class="img-1">
+                <img src="img/2 Com Borda.png" alt="">
+                <img src="img/3 Com Borda.png" alt="">
+                <section class="btns-pets">
+                    <article class="btn-plus">
+                        <button class="btn-1">Criar novo perfil</button>
+                        <button class="btn-2">Adicione mais um pet</button>
+                    </article>
+                    <div class="open">
+                        <div class="txt-description">
+                            <h3>Linda</h3>
+                            <h5>Fêmea</h5>
+                            <img src="img/Feminino.png" alt="">
+                        </div>
+                        <button>
+                            Abrir Perfil
+                        </button>
+                    </div>
+
+                    <div class="open-macho">
+                        <div class="txt-description">
+                            <h3>Sol</h3>
+                            <h5>Macho</h5>
+                            <img src="img/Masculino.png" alt="">
+                        </div>
+                        <button>
+                            Abrir Perfil
+                        </button>
+                    </div>
+                </section>
+                <section class="pet-adotado">
+                    <img src="img/4 Com Borda.png" alt="">
+                    <img src="img/5 Com Borda.png" alt="">
+
+                    <section class="btns-pets">
+                        <div class="open-adotado">
+                            <div class="txt-description">
+                                <h3>Leroy</h3>
+                                <h5>Macho</h5>
+                                <img src="img/Masculino.png" alt="">
+                            </div>
+                            <button>
+                                Adotado
+                            </button>
+                        </div>
+                        <div class="open-adotado">
+                            <div class="txt-description">
+                                <h3>Luke</h3>
+                                <h5>Macho</h5>
+                                <img src="img/Masculino.png" alt="">
+                            </div>
+                            <button>
+                                Adotado
+                            </button>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section id="Posts">
+            <section class="fts-postadas">
+                <img src="img/10.png" alt="">
+                <img src="img/2.png" alt="">
+                <img src="img/6.png" alt="">
+                <img src="img/1-pots.png" alt="">
+                <img src="img/7.png" alt="">
+                <img src="img/4.png" alt="">
+                <img src="img/9.png" alt="">
+                <img src="img/8.png" alt="">
+                <img src="img/3.png" alt="">
+            </section>
+        </section>
+
+    </main>
+    
+    <script>
+            var Pets = document.getElementById('Pets')
+            var Posts = document.getElementById('Posts')
+            var btnPet = document.getElementById('btn-pets')
+            var btnPosts = document.getElementById('btn-posts')
+
+        function abrirTabPosts(){
+            if(Pets = display = 'block'){
+                document.getElementById('Posts').style.display = 'block'
+                document.getElementById('Pets').style.display = 'none'clas
+            
+                btnPet.classList.remove('tab-on');
+                btnPosts.sList.add('tab-on')
+             } 
+        }
+
+        function abrirTabPets(){
+            if(Pets = display = 'none'){
+                document.getElementById('Posts').style.display = 'none';
+                document.getElementById('Pets').style.display = 'block';
+
+                btnPosts.classList.remove('tab-on');
+                btnPet.classList.add('tab-on')   
+
+            } 
+        }
+
+    </script>
+</body>
+</html>

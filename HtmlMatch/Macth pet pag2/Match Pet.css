@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@media(max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    body{
+        width: 100vw;
+        height: 788px;
+       position: fixed;
+    }
+
+    header{
+        display: flex;
+        padding-top: 3px;
+        width: 480px;
+        height: 48px;
+    }
+
+    nav{
+        display: flex;
+    }
+
+    nav > .voltar {
+        padding: 10px 20px;
+    }
+
+     nav  h1{
+        font-family: 'Fredoka', sans-serif;
+        padding: 10px;
+        text-align: center;
+        color: #025959;
+        margin: -7px 50px;
+        padding-top: 10px;
+        font-size: 36px;
+    }
+
+
+  .voltar > img{
+        width: 30px;
+        height: 35px;
+    }
+
+    .perfil{
+        padding: 10px 10px;
+    }
+
+    .perfil img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .img-3{
+        width: 50px;
+        height: 50px;
+        
+    }
+    main{
+        width: 480px;
+        height: 788px;
+        position: relative;
+        top: -3%;
+        left: -3%;
+    }
+
+    .container-foto{
+        padding-left: 25px;
+       
+    }
+  
+    .container-foto > img{
+        width: 457px;
+        height: 788px;
+        padding-top: 13px;
+    }
+   
+    .Match{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        color: #FF6700;
+        position: relative;
+        top: -32rem;
+        left: 37%;
+       font-size: 38px;
+    }
+
+
+    .match{
+        font-family:Arial, Helvetica, sans-serif;
+        color: #FF6700;
+        font-style: italic;
+        letter-spacing: 5px;
+        position: absolute;
+        top: 42%;
+       left: 24%; 
+       font-size: 72px;
+    }
+
+    .MMatch{
+        font-family:Arial, Helvetica, sans-serif;
+        color: #025454 ;
+        font-style: italic;
+        letter-spacing: 5px;
+        position: absolute;
+        top: -2%;
+       left: 1%; 
+       font-size: 72px;
+    }
+
+    .MMMatch{
+        font-family:Arial, Helvetica, sans-serif ;
+        color: #FF6700;
+        font-style: italic;
+        letter-spacing: 5px;
+        position: absolute;
+        top: -4%;
+       left: 2.2%; 
+       font-size: 72px;
+    }
+
+    .txt_coment{
+        position: relative;
+        top: -8rem;
+        font-size: 20px;
+        left: 20%;
+    }
+
+    .txt_coment > p{
+        color: #fff;
+    }
+    
+
+    form{
+        position: relative;
+        top: -7.5rem;
+        left: 12%;
+        width: 80%;
+        height: 32px;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex
+   
+    }
+
+    form > input{
+        font-size: 20px;
+        border: none;
+        outline: none;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    form > button{
+        border: none;
+        color: orange;
+        background-color: #fff;
+        outline: none !important; 
+        padding: 0px 10px;
+        margin-left: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+
+}

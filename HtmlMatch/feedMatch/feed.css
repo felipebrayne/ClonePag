@@ -1,0 +1,388 @@
+@media (min-width: 480px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;1,200;1,300&family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .logo > img {
+        width: 39px;
+        height: 30px;
+    }
+    
+    .logo{
+        padding:  15px 10px;
+    }
+    
+    header{
+        display: flex;
+        background-color: #025454;
+        width: 480px;
+        height: 64px;
+    }
+    
+    .pesquisa{
+        margin-top: 10px;
+        margin-left: 7px;
+        width: 220px;
+        height: 44px;
+        padding: 13px 15px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    .pesquisa input{
+        width: 160px;
+        border: none;
+        outline: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .itens{
+        padding: 12px 18px;
+    }
+    
+    .itens img {
+        padding: 5px;
+    }
+    
+    .menu{
+        position: relative;
+        top: -7%;
+    }
+
+    .caracteristicas{
+        display: flex;
+        padding: 10px 8px;
+    }
+
+    .status{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .status > img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .status > p{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        
+    }
+
+    .status .statu{
+        color: #797979;
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .left{
+        position: absolute;
+        left: 80%;
+        top: 10%;
+    }
+
+    .left > button{
+        width: 61px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .left > img{
+        position: absolute;
+        height: 20px;
+        padding-left: 10px;
+        top: 15%;
+    }
+
+    .teste img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Opcoes-ocultas{
+        position: absolute;
+        top: 16%;
+        padding: 5px;
+        background-color: #025454;
+        width: 200px;
+        margin-left: 17.5rem;
+        color: white;
+        display: none;
+        
+    }
+    
+
+    #Opcoes-oculta-2{
+        display: none;
+    }
+    
+    .opçoes-2{
+        background-color: #025454;
+        width: 200px;
+        height: 88px;
+        position: absolute;
+        left: 59%;
+       
+        color: white;
+    }
+
+
+    #Opcoes-oculta-3{
+        
+        
+       
+        width: 200px;
+        margin-left: 17.5rem;
+        color: white;
+        display: none;
+        
+    }
+
+    .opçoes-3{
+        background-color: #025454;
+        width: 200px;
+        height: 88px;
+        position: absolute;
+        left: 59%;
+        margin-top: 4em;
+        
+       
+        color: white;
+    }
+
+
+    .underfollow{
+        display: flex;
+        
+    }
+
+    .underfollow p {
+        padding-top: 15px;
+    }
+
+    .underfollow img {
+        width: 50px;
+        height: 50px;
+        color: white;
+        padding-left: 4px;
+    }
+
+    
+
+    .esconder-Post{
+        display: flex;
+    }
+
+    .esconder-Post img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .esconder-Post p {
+        padding-top: 5px;
+        padding-left: 11px;
+        padding-bottom: 5px;
+    }
+
+    .esconder-Post span{
+        background-color: red;
+        width: 30px;
+
+        border-radius: 50%;        padding: 5px 12px;
+        margin-left: 15px;
+    }
+
+    .ftPostada{
+        width: 480px;
+        height: 474px;
+    }
+
+
+    .btns img { 
+        padding: 7px;
+    }
+
+    .enviar{
+      margin-left: 21rem;
+    }
+
+
+    .primeiro-coment{
+        display: flex;
+        padding: 10px 5px;
+    }
+
+    .primeiro-coment > h6{
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+    
+    .primeiro-coment > p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #797979;
+        padding-top: 5px;
+    }
+
+    .segundo-coment{
+        display: flex;
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+
+    .segundo-coment h6{
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+    .segundo-coment p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #797979;
+        padding-top: 5px;
+    }
+
+    #verComentarios{
+        border: none;
+        background-color: white;
+        color: #797979;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+    }
+
+    #coment{
+        border-bottom: 1px solid #797979;
+    }
+
+    #ultimo-coment{
+        border: none;
+    }
+
+
+
+
+    .btn-seguindo{
+        position: absolute;
+        left: 79%;
+        margin-top: 10px;
+    }
+
+    .btn-seguindo button{
+        background-color: #FF6700;
+        color: white;
+        width: 71px;
+        height: 30px;
+        margin-right: 3px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn-seguindo img {
+        position: absolute;
+        height: 20px;
+        padding-left: 10px;
+        top: 15%;    
+    }
+
+    .prucurarPets{
+        width: 480px;
+        height: 861px;
+    }
+
+    .procurarMais{
+        width: 480px;
+        height: 530px;
+        margin-top: 30px;
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        background-color: #f2a7057e;
+    }
+
+    #tartaruga{
+        position: relative;
+        top: 30%;
+        left: 11%;
+    }
+
+    #peixe{
+        position: relative;
+        left: 28%;
+        top: -15%;
+    }
+
+    #largatixa{
+        position: relative;
+        top: 10%;
+        left: 27%;
+    }
+
+    #lontra{
+        position: relative;
+        top: 50%;
+    }
+
+
+    .PesquisarPet{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF7E00;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 301px;
+        height: 80px;   
+
+    }
+
+    .lupa {
+        position: absolute;
+        padding: 10px;
+        top: 20%;
+        left: 24%;
+
+    }
+
+    .buscar_Pets{
+        position: relative;
+        top: -50%;
+        display: flex;
+        align-items:center ;
+        justify-content:center ;
+    }
+
+    .txt-pesquisa h3{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+    }
+
+    .txt-pesquisa p {
+        font-family: 'Jost', sans-serif;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+}

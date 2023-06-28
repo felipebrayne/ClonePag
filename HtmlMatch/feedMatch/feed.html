@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+ <header>
+        <div class="logo">
+            <img src="imgs/logoGato.png" alt="">
+        </div>
+        <div class="pesquisa">
+            <img src="imgs/pesquisa.svg" alt="">
+            <input type="text" placeholder="Pesquisar" class="pesquisar"> 
+        </div>
+        <div class="itens">
+            <img src="imgs/carrinho.svg" alt="">
+            <img src="imgs/notificação.svg" alt="">
+            <img src="imgs/fotoPerfil.svg" alt="">
+            <img src="imgs/menu.svg" alt="" class="menu">
+        </div>
+    </header>
+     <main>
+            <section class="caracteristicas">
+                <img src="imgs/logoPerfil.svg" alt="" id="ftPerfil">
+                <div class="status">
+                    <p>lucas_augusto</p>
+                    <p class="statu">há 2 minutos</p>
+                </div>
+            </section>
+            <section class="left">
+                <button id="bnt-S">Seguir</button>
+                <img src="imgs/opções.svg" alt="" id="Opcoes">
+            </section>
+            <section id="Opcoes-ocultas">
+                    <div class="teste">
+                        <div class="underfollow">
+                            <img src="imgs/underfollowB-.png" alt="" >
+                            <p>Deixar de seguir</p>
+                        </div>
+                        <div class="esconder-Post">
+                            <span class="denuncia">i</span>
+                            <p>Ocultar publicação</p>
+                        </div>
+                    </div>
+            </section>
+            <div class="porquinho">
+                <img src="imgs/porquinhoIndia.jpg" alt="" class="ftPostada">
+            </div>
+            <section class="comentarios">
+                <div class="btns">
+                    <img src="imgs/curtir.svg" alt="" class="curtirFt">
+                    <img src="imgs/comentario.svg" alt="">
+                    <img src="imgs/enviar.svg" alt="" class="enviar">
+                </div>
+                <section id="coment">
+                    <div class="primeiro-coment">
+                        <img src="imgs/luana.svg" alt="" class="ftComent">
+                         <h6>luana12</h6>
+                         <p>que lindo!</p>
+                    </div>
+                    <div class="segundo-coment">
+                        <img src="imgs/comentBruno.svg" alt="" class="ftComent">
+                        <h6>bruno_vini</h6>
+                        <p>muito fofos</p>
+                    </div>
+                    <button id="verComentarios">Ver todos os comentarios</button>
+                </section>
+                <section class="caracteristicas">
+                    <img src="imgs/perfilAna.svg" alt="" id="ftPerfil">
+                    <div class="status">
+                        <p>ana_ferreira</p>
+                        <p class="statu">há 3h</p>
+                    </div>
+                    <div class="btn-seguindo">
+                        <button>Seguindo</button>
+                        <img src="imgs/opções.svg" alt=""
+                        id="opçoes2">
+                    </div>
+                </section>
+
+                <section id="Opcoes-oculta-2">
+                    <div class="opçoes-2">
+                        <div class="underfollow">
+                            <img src="imgs/underfollowB-.png" alt="" >
+                            <p>Deixar de seguir</p>
+                        </div>
+                        <div class="esconder-Post">
+                            <span class="denuncia">i</span>
+                            <p>Ocultar publicação</p>
+                        </div>
+                    </div>
+            </section>
+
+                <div class="passarinho">
+                    <img src="imgs/passarinho.jpg" alt="" class="ftPostada">
+                </div>
+                <section class="btns">
+                    <img src="imgs/curtida.svg" alt="" class="ftCurtida">
+                    <img src="imgs/comentario.svg" alt="" id="btn-comentarios">
+                    <img src="imgs/enviar.svg" alt="" class="enviar">
+                </section>
+                <section id="coment">
+                    <div class="primeiro-coment">
+                        <img src="imgs/perfilMarcos.svg" alt="" class="ftComent">
+                         <h6>marcos_andré</h6>
+                         <p>foto supimpa :) </p>
+                    </div>
+                    <div class="segundo-coment">
+                        <img src="imgs/perfilBrad.svg" class="ftComent">
+                        <h6>brad87</h6>
+                        <p>lugar lindo de mais</p>
+                    </div>
+                    <button id="verComentarios">Ver todos os comentarios</button>
+                </section>
+                <section class="coment">
+                    <div class="caracteristicas">
+                        <img src="imgs/perfilBruno.svg" alt="" id="ftPerfil">
+                        <div class="status">
+                            <p>bruno_vini</p>
+                            <p class="statu">há 6h</p>
+                        </div>
+
+
+                        <section id="Opcoes-oculta-3">
+                            <div class="opçoes-3">
+                                <div class="underfollow">
+                                    <img src="imgs/underfollowB-.png" alt="" >
+                                    <p>Deixar de seguir</p>
+                                </div>
+                                <div class="esconder-Post">
+                                    <span class="denuncia">i</span>
+                                    <p>Ocultar publicação</p>
+                                </div>
+                            </div>
+                    </section>
+
+                        <div class="btn-seguindo">
+                            <button>Seguindo</button>
+                            <img id="opçoes3"
+                            src="imgs/opções.svg" alt="" >
+                        </div>
+                    </div>
+                    <div class="ftPostada">
+                        <img src="imgs/coelinho.jpg" alt="" class="ftPostada">
+                    </div>
+
+                    
+
+                    <section class="btns">
+                        <img src="imgs/curtida.svg" alt="" class="ftCurtida"
+                        onclick="descurtida()">
+                        <img src="imgs/comentario.svg" alt="">
+                        <img src="imgs/enviar.svg" alt="" class="enviar">
+                    </section>
+
+                    
+
+
+                    <section id="ultimo-coment">
+                        <div class="primeiro-coment">
+                            <img src="imgs/comentBruno.svg" alt="" class="ftComent">
+                             <h6>bruno_vini</h6>
+                             <p>quem se interresar, manda mensagem </p>
+                        </div>
+
+                        
+
+                        <div class="segundo-coment">
+                            <img src="imgs/perfilBrad.svg" class="ftComent">
+                            <h6>ana_ferreira</h6>
+                            <p>que amor <3> </p>
+                        </div>
+                        <button id="verComentarios">Ver todos os comentarios</button>
+                    </section>
+                </section>
+                <section class="procurarMais">
+                    <img src="imgs/tartaruga.svg" alt="" id="tartaruga">
+                    <img src="imgs/largatixa.svg" alt="" id="largatixa">
+                    <img src="imgs/lontra.svg" alt="" id="lontra">
+                    <img src="imgs/peixe.svg" alt="" id="peixe">
+                    <section class="buscar_Pets">
+                        <section class="PesquisarPet">
+                            <div class="procurar_Mais">
+                                <img src="imgs/lupaPesquisaMsis.svg" alt="" class="lupa">
+                                <img src="imgs/circuloPesquisa.svg" alt="">
+                            </div>
+
+                            <div class="txt-pesquisa">
+                                <h3>Procurar pets...</h3>
+                                <p>Explore pets para adoção</p>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+     </main>
+     <footer>
+        <img src="imagens/iconlogo.svg">
+
+        <div>
+            <a><img src="imagens/iconwpp.svg"><span>(11) 95321-9866</span></a><br>
+            <a><img src="imagens/iconinsta.svg"><span>@MewPet</span></a><br>
+            <a><img src="imagens/iconface.svg"><span>MewPet</span></a><br>
+            <a><img src="imagens/ixonemail.svg"><span>MewPet@gmail.com</span></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
